@@ -129,7 +129,7 @@ font-size: 82.5%;
 line-height: 1;
 top: .75em;
 right: .75em;
-font-weight: 700;
+font-weight: 500;
 }
 .calendar .body .cell:hover .number, .calendar .body .selected .number   {
 visibility:hidden;
@@ -139,14 +139,14 @@ color: lightgray;
 pointer-events: none;
 }
 .calendar .body .cell .bg {
-font-weight: 700;
+font-weight: 500;
 line-height: 1;
-color: #000000;
+color: #f70c0c;
  opacity: 0; 
-font-size: 5em;
+font-size: 2.5em;
 position: absolute;
-top: -.2em;
-right: -.05em;
+top: 0em;
+right: 0em;
 transition: .25s ease-out;
 letter-spacing: -.07em;
 }
